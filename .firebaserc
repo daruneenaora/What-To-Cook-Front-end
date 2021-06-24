@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "whattocook-cs63",
+    "cooking": "cooking-whatever",
+    "cook": "cooking-whatever",
+    "cooking-whatever": "whattocook-cs63"
+  }
+}
