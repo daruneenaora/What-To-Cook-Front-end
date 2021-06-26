@@ -46,3 +46,6 @@ Stap 3 : Initial Project :
 ###### use your firebase project that you created
 
 Stap 4 : Deploy your application:
+
+> firebase deploy
+###### Done! Now you will get Publish URL to use 
