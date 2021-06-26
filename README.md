@@ -1,27 +1,48 @@
-# Cooking
+# What to Cook Project 
+## Preparation Environment
+###### Font-end part
+Download and Install _Node JS and Npm_:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+> https://nodejs.org/en/download/
 
-## Development server
+Download and Install _Angular CLI_:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> npm install -g @angular/cli
 
-## Code scaffolding
+Use `Command line` to open the peoject.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+###### After you Download and extract program file on your path 
 
-## Build
+Stap 1 : Open Command line and _access to path that you store program file_:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+> cd c:/User/your path
 
-## Running unit tests
+Stap 2 : install _node modules_:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> npm install
 
-## Running end-to-end tests
+Stap 3 : run _project on localhost_:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> ng serve
 
-## Further help
+## How to Deploy program on Firebase Hosting 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+First of all you have to Create  _Firebase Project_:
+
+> https://firebase.google.com/
+
+Stap 1 : Build your project :
+
+> ng build
+
+Stap 2 : Login to firebase by using command line:
+
+> firebase login
+
+Stap 3 : Initial Project :
+
+> firebase init 
+> choose Hosting service
+###### use your firebase project that you created
+
+Stap 4 : Deploy your application:
